@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* AUTH */
+.auth-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-container {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-text {
+    color: #2874f0;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #1a237e;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li, .navbar a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #2874f0, #00c6ff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    color: #2874f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px,1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-card button {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-btn { background: #2874f0; color: white; }
+.buy-btn { background: #28a745; color: white; }
+
+/* ABOUT */
+.about {
+    padding: 50px;
+    background: #eef1f7;
+}
+
+/* PROFILE */
+.profile-hero {
+    padding: 40px;
+    background: linear-gradient(135deg,#2874f0,#00c6ff);
+    color: white;
+    text-align: center;
+}
+
+.profile-section {
+    padding: 40px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+    gap: 20px;
+}
+
+footer {
+    background: #0d1333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopSphere - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+
+<div class="auth-container">
+    <h2 id="formTitle">Register</h2>
+
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <button id="registerBtn" onclick="registerUser()">Register</button>
+    <button id="loginBtn" onclick="loginUser()" style="display:none;">Login</button>
+
+    <p onclick="toggleForm()" class="toggle-text">
+        Already have account? Login
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

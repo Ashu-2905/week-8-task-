@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">ShopSphere</div>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li onclick="goProfile()">Profile</li>
+        <li onclick="logout()">Logout</li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+    <h1>Welcome to ShopSphere 🛍️</h1>
+    <p>Your Favorite Shopping Destination</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid" id="productGrid"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        ShopSphere is a demo modern e-commerce platform built using
+        HTML, CSS and JavaScript.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 ShopSphere | Designed by Ashu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
